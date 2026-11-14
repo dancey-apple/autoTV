@@ -1,0 +1,5 @@
+# One video per line: a category, then a YouTube link or video ID.
+# Add lines here, or run: ./autotv.py add fish <youtube link>
+#
+# fish   https://www.youtube.com/watch?v=XXXXXXXXXXX   # 10 hour coral reef
+# whale  https://youtu.be/XXXXXXXXXXX

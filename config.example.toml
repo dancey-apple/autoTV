@@ -1,0 +1,24 @@
+# Copy to config.toml and edit. Every setting is optional.
+
+# The Roku's IP address. Leave empty to find it automatically; set it if you
+# have more than one Roku. A fixed address (DHCP reservation in your router)
+# makes waking from standby more reliable.
+host = ""
+
+# The Roku's MAC address, for Wake-on-LAN. Leave empty: it is learned and
+# remembered the first time the Roku answers.
+mac = ""
+
+# Which videos `autotv.py on` picks from: "fish", "whale", or "any".
+category = "any"
+
+# Do nothing if someone is already watching something.
+skip_if_busy = true
+
+# Seconds to wait for the Roku to wake up.
+wake_timeout = 45
+
+# Remote buttons to press after YouTube opens, e.g. ["Select"] to get past a
+# "Who's watching?" profile screen. Pressed post_launch_delay seconds after launch.
+post_launch_keys = []
+post_launch_delay = 10
